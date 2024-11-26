@@ -8,6 +8,7 @@ import (
 	"go-template-clean/internal/domain"
 	"go-template-clean/internal/domain/entity"
 	"testing"
+	"time"
 )
 
 type ExampleRepositorySuccess struct {
@@ -63,4 +64,6 @@ func TestExampleService_GetUserTest(t *testing.T) {
 			}
 		})
 	}
+
+	time.RFC3339
 }
